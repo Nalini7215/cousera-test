@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>module2-solution</title>
+</head>
+<style >
+	/*basic style*/
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: #80bfff;
+	}
+	h1 {
+		margin: 50px;
+		text-align: center;
+		font-family:Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		text-transform: capitalize;
+		font-size: 22px;
+	}
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p {
+		position: relative;
+		clear: right;
+	}
+	div {
+		position: relative;
+		background-color: #ff80b3;
+		border: 5px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+	.s1 {
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;color:white;
+		background-color: #ff0000;
+
+	}
+	.s2 {
+		float: right;
+		color: white;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: #000099;
+
+	}
+	.s3 {
+		color: black;
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: #ffcc00;
+
+	}
+.cont {
+		padding: 5px;
+		border: 1px solid grey;
+		background-color: #ffb3ff;
+		font-family: Helvetica;
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+	}
+
+	.row {
+		width: 90%;
+	}
+
+	/*desktop version*/
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	/*tablet version*/
+	@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	/*mobile version*/
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
+<body >
+<h1><i>HTML,CSS,JAVASCRIPT FOR WEB DEVELOPRES!!!</i></h1>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="s1">HTML</p>
+			<p class="cont">
+			 Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page.
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="s2">CSS</p>
+			<p class="cont">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.This  improve content accessibility, provide more flexibility and reduce complexity and repetition in the structural content.
+
+</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+		<p class="s3">Javascript</p>
+			<p class="cont">JavaScript is a scripting language used to create and control dynamic website content, i.e. anything that moves, refreshes, or otherwise changes on your screen without requiring you to manually reload a web page. Once you’ve created your structure (HTML) and your aesthetic vibe (CSS), JavaScript makes your site or project dynamic.JavaScript is such an integral part of web functionality, all major web browsers come with built-in engines that can render JavaScript. </p>
+	</div>
+</body>
+</html> 
+ 
+
+
